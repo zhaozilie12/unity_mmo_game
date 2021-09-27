@@ -128,6 +128,7 @@ local _cls_mark = function(name, cls, env)
     end
     
     local mod = string.match(name, "([^%.]+)$")
+
     rawset(p, mod, cls)
 end
 
@@ -168,7 +169,7 @@ function defClassStatic(name, super, env)
 	if rawget(env, name) then
 		Log.e("defClassStatic:redefined", name)
 	end
-	
+
 	local cls = {}
 	cls.__cls_type = cls
 	cls.__cls_name = name
@@ -254,7 +255,6 @@ local _global_meta = {
             rawset(t, k, v)
             return v
         else
-            Log.w("getGlobal:failed", t, k, debug.traceback())
             return nil
         end
     end
