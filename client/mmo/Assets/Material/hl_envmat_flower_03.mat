@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: hl_envmat_flower_03
+  m_Shader: {fileID: 4800000, guid: 20fbd7fe11ddfe446ac2bedcf4ae8350, type: 3}
+  m_ShaderKeywords: SIMPLESHADE _APPLYLAMBERT_ON _PREVIEWMODE_OFF _PREVIEWMODE_SIMPLESHADE
+    _SHADEMODE_SIMPLESHADE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailColorNoise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 393ba34b9e6ea684f91b1cefa8c9a470, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowOffset:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: 7a941772ec090b44aacba7d50eb1859c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TranslucencyMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindNoiseTex:
+        m_Texture: {fileID: 2800000, guid: 7a941772ec090b44aacba7d50eb1859c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - AlphaValue: 1
+    - DitherAlphaValue: 1
+    - _22222: 2
+    - _AOIntensity: 0.5
+    - _AlphaClip: 0.68
+    - _AoAdd: 0.02
+    - _AoIntensity: 1
+    - _AoPower: 0.47
+    - _ApplyLambert: 1
+    - _BlendModeDst: 0
+    - _BlendModeSrc: 1
+    - _Clip: 0.5
+    - _ColChange: 0
+    - _CrossFade: 0
+    - _CullMode: 0
+    - _Cutoff: 0.3
+    - _Desaturate: 0
+    - _DetailColorIntensity: 0.7
+    - _DetailNoise01Tiling: 0
+    - _DetailNoise02Tiling: 0
+    - _Float0: 0.5
+    - _Float1: 10
+    - _Float14: 6.45
+    - _FogIntensity1: 0.7
+    - _LW: 0.24
+    - _LerpWhite: 0
+    - _Non_AO: 0
+    - _NormalLerp: 1
+    - _OffsetOff: 0
+    - _PreviewMode: 0
+    - _RampIntensity: 1
+    - _RimLight: 0.43
+    - _RimScale01: 1
+    - _RimScale02: 0.4
+    - _RootAreaAdd: 0
+    - _RootAreaPower: 1
+    - _SSS: 0.6
+    - _Scattering: 0.95
+    - _SelfShadowOcclusion: 0.64
+    - _ShadeMode: 1
+    - _ShadowFadeOut: 0.46
+    - _ShadowIntensity: 0
+    - _Shininess: 0.078125
+    - _Smoothness: 1
+    - _Specular: 1
+    - _SquashAmount: 1
+    - _VertexAOMul: 1
+    - _VertexAOPow: 1
+    - _VertexColorIntensity: 1
+    - _VertexDCMul: 1
+    - _VertexDCPow: 1
+    - _VertexMul: 1
+    - _VertexPow: 0.5
+    - _WI: 0.22
+    - _WS: 1
+    - _WindIntensity: 0.035
+    - _WindNoiseTiling: 25
+    - _WindNoiseTiling3D: 1.5
+    - _WindSpeed: -0.3
+    - _WorldPosUVTiling: 0.5
+    - _ZWrite: 1
+    m_Colors:
+    - _AoColor: {r: 0.17101282, g: 0.5754717, b: 0.52405745, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ColChangeCol: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailCol: {r: 1, g: 1, b: 1, a: 1}
+    - _HightLightColor: {r: 0.066037714, g: 0.066037714, b: 0.066037714, a: 0}
+    - _LightColor: {r: 0.31132078, g: 0.30242512, b: 0.19530974, a: 0}
+    - _LightDir: {r: -0.3, g: 1, b: 0.15, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 0.5517978, g: 0.6549095, b: 0.754717, a: 1}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+    - _Vector0: {r: 555, g: 555, b: 555, a: 0}
+    - _Vector2: {r: 1, g: 0, b: 0, a: 1}
+    - _Vector3: {r: 0, g: 1, b: 0, a: 0}
+    - _Vector5: {r: 0, g: 0, b: 1, a: 0}
+    - _WindDirRGSpeedBScaleA: {r: 10, g: 10, b: 10, a: 0.01}
+    - _axis: {r: 0, g: 1, b: 1, a: 0}
+    - _wpo_pos: {r: 0, g: -0.5, b: 0, a: 0}

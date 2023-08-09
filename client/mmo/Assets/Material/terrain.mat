@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: terrain
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: 4800000, guid: 25426deab551e304c8982ef1a1767c14, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -27,6 +27,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DetailColorNoise:
+        m_Texture: {fileID: 2800000, guid: c1e7db842ab227a4ca127f24d0c7ad80, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DetailMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -40,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 8a71b3e78017b964da72167f832c6414, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -55,14 +59,40 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Splat0:
+        m_Texture: {fileID: 2800000, guid: 01fbc6fd95a38434c8f09ff13a4ffa49, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat1:
+        m_Texture: {fileID: 2800000, guid: e208dc48d1d895e428ead754901628ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat2:
+        m_Texture: {fileID: 2800000, guid: 2f05a1d3e5e5c9d4ba11255931f3edb5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Splat3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _DetailNoise01Tiling: 1
+    - _DetailNoise02Tiling: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
+    - _Material01Gloss: 0.5
+    - _Material01Tiling: 1
+    - _Material02Gloss: 0.5
+    - _Material02Tiling: 1
+    - _Material03Gloss: 0.5
+    - _Material03Tiling: 1
+    - _Material04Gloss: 0.5
+    - _Material04Tiling: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -71,7 +101,20 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
+    - _Weight: 0.1
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 0.42880386, g: 0.5660378, b: 0.39782843, a: 1}
+    - _DarkColor: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 0}
+    - _DetailColor01: {r: 1, g: 1, b: 1, a: 1}
+    - _DetailColor02: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Material01Col: {r: 1, g: 1, b: 1, a: 1}
+    - _Material02Col: {r: 1, g: 1, b: 1, a: 1}
+    - _Material03Col: {r: 1, g: 1, b: 1, a: 1}
+    - _Material04Col: {r: 1, g: 1, b: 1, a: 1}
+    - _ShadowColor: {r: 0.46666667, g: 0.57254905, b: 0.6313726, a: 0}
+    - _SpecularCol01: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularCol02: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularCol03: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularCol04: {r: 0, g: 0, b: 0, a: 0}

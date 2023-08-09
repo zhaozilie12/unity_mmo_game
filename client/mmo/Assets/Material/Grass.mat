@@ -87,7 +87,7 @@ Material:
     - _SrcBlend: 1
     - _UVAO: 0.7
     - _UVSec: 0
-    - _WindIntensity: 0.25
+    - _WindIntensity: 0.5
     - _WindNoiseTiling: 40
     - _WindSpeed: -0.15
     - _ZWrite: 1
